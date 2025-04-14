@@ -27,7 +27,8 @@ Welcome to the lab practice. Today, we will work on the human data that passed o
 
 - A simple association study using R
 - A simple association study using PLINK
-- Optional: GWAS linear mixed model using R
+- Optional: GWAS linear mixed model using R  
+
 The data set we will be using today can be found [here]().
 
 ## Task 1 : A simple GWAS using R
