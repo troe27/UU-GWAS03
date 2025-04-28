@@ -196,6 +196,7 @@ Check [this webpage](https://r-graph-gallery.com/101_Manhattan_plot.html) for mo
 library(qqman)
 manhattan(result, annotatePval = 0.01)
 ```
+![manhattan plot](./figures/manhattan.png)
 
 
 #### Step 4. Q-Q plot.
@@ -205,6 +206,8 @@ manhattan(result, annotatePval = 0.01)
 ```R
 qq(result$P)
 ```
+![qq plot](./figures/qq1.png)
+
 
 
 ## Task 3: simple GWAS using PLINK
@@ -245,6 +248,9 @@ library(qqman)
 manhattan(assoc)
 ```
 
+![manhattan plot](./figures/manhattan2.png)
+
+
 
 #### Step 4. Q-Q plot
 
@@ -252,6 +258,7 @@ manhattan(assoc)
 qq(assoc$P)
 ```
 
+![qq plot](./figures/qq2.png)
 
 
 You may notice a difference in results from R and PLINK. To prevent any confusion, please reference the help manual for more information on the chi-square test (```chisq.test()```) and [Yate’s correction for continuity](https://en.wikipedia.org/wiki/Yates%27s_correction_for_continuity).
@@ -338,3 +345,5 @@ library(qqman)
 qqman::manhattan(asso)
 qqman::qq(result$P)
 ```
+![manhattan plot](./figures/manhattan3.png)
+
