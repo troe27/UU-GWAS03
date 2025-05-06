@@ -29,7 +29,7 @@ Welcome to the lab practice. Today, we will work on the human data that passed o
 - A simple association study using PLINK
 - Optional: GWAS linear mixed model using R  
 
-The data set we will be using today can be found [here]().
+Alternatively, the data set we will be using today can be found [here](./data/human.filtered.vcf.gz), or here: ```/proj/g2020004/nobackup/tilman/gwas02/human.filtered.vcf```
 
 ## Task 1 : A simple GWAS using R
 Here’s an example of conducting a chi-square test in R. You will be conducting a GWAS test utilizing the chi-square method.
