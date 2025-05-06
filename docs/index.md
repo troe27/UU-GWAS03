@@ -35,9 +35,18 @@ Alternatively, the data set we will be using today can be found [here](./data/hu
 Here’s an example of conducting a chi-square test in R. You will be conducting a GWAS test utilizing the chi-square method.
 
 ```R
-### Your code here ###
+exampleData = data.frame(
+    case = c(20, 20, 60),
+    control = c(50, 30, 20)
+)
+
+result = chisq.test(exampleData)
+print(result)
 ```
 
+    Pearson's Chi-squared test
+    data:  exampleData
+    X-squared = 34.857, df = 2, p-value = 2.697e-08
 
 #### Reading in the data
 Let’s start the GWAS test. First, read the three data-files with the ```human_all``` prefix into ```R``` 
