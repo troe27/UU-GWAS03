@@ -131,7 +131,7 @@ Check [this webpage](https://r-graph-gallery.com/101_Manhattan_plot.html) for mo
 ## Task 3: simple GWAS using PLINK
 There are more efficient ways to conduct association tests than using R. For instance, one can use well-developed software like PLINK. For more information, check the [PLINK website](https://www.cog-genomics.org/plink/1.9/assoc). 
 
-#### Step 1: Run association study by PLINK in the terminal.
+#### Step 1: Run an association study by PLINK in the terminal.
 
 ```bash
 ### Your code here ###
